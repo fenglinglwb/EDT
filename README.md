@@ -2,4 +2,4 @@
 
 ---
 
-We will made the code and well-trained models publicly available.
+We will make codes, well-trained models as well as visual examples publicly available.
