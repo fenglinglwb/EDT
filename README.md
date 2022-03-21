@@ -43,7 +43,7 @@ We have made the testing code and well-trained models for SR, denoising and dera
       - SR: Div2K, Flickr2K.
       - Denoising: Div2K, Flickr2K, BSD500 and WED, short for D4.
       - Deraining: RAIN100L, RAIN100H.
-   - Note. We only provide pre-trained and fine-tuned models for deraining since RAIN100 dataests only contain hundreds of low-resolution images (insufficient to train the model). Especially, pre-trained models obtain better performance than fine-tuned ones. Thus, we report the evaluation results of pre-trained models in the paper. 
+   - Note. We only provide pre-trained and fine-tuned models for deraining since RAIN100 dataests only contain hundreds of low-resolution images (insufficient to train transformers). Especially, pre-trained models obtain better performance than fine-tuned ones. Thus, we report the evaluation results of pre-trained models in the paper. 
    <br />
    <table>
    <thead>
