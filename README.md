@@ -1,6 +1,7 @@
 ## On Efficient Transformer-Based Image Pre-training for Low-Level Vision 
 ---
-Wenbo Li, Xin Lu, Shengju Qian, Jiangbo Lu, Xiangyu Zhang, Jiaya Jia
+
+#### Wenbo Li, Xin Lu, Shengju Qian, Jiangbo Lu, Xiangyu Zhang, Jiaya Jia
 ---
 [\[Paper\]](https://arxiv.org/abs/2112.10175)
 
