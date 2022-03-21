@@ -55,8 +55,8 @@ We have made the testing code and well-trained models for SR, denoising and dera
    </thead>
    <tbody>
      <tr>
-       <td rowspan="49">SR</td>
-       <td rowspan="19">Fine-tune</td>
+       <td rowspan="37">SR</td>
+       <td rowspan="13">Fine-tune</td>
        <td>SRx2_EDTB_Div2kFlickr2K__SRx2x3x4_ImageNet200K</td>
      </tr>
      <tr>
@@ -69,19 +69,7 @@ We have made the testing code and well-trained models for SR, denoising and dera
        <td>SRx2_EDTT_Div2kFlickr2K__SRx2_ImageNet200K</td>
      </tr>
      <tr>
-       <td>SRx3_EDTT_Div2kFlickr2K__SRx3_ImageNet200K</td>
-     </tr>
-     <tr>
-       <td>SRx4_EDTT_Div2kFlickr2K__SRx4_ImageNet200K</td>
-     </tr>
-     <tr>
        <td>SRx2_EDTS_Div2kFlickr2K__SRx2_ImageNet200K</td>
-     </tr>
-     <tr>
-       <td>SRx3_EDTS_Div2kFlickr2K__SRx3_ImageNet200K</td>
-     </tr>
-     <tr>
-       <td>SRx4_EDTS_Div2kFlickr2K__SRx4_ImageNet200K</td>
      </tr>
      <tr>
        <td>SRx2_EDTB_Div2kFlickr2K__SRx2_ImageNet200K</td>
@@ -96,12 +84,6 @@ We have made the testing code and well-trained models for SR, denoising and dera
        <td>SRx2_EDTL_Div2kFlickr2K__SRx2_ImageNet200K</td>
      </tr>
      <tr>
-       <td>SRx3_EDTL_Div2kFlickr2K__SRx3_ImageNet200K</td>
-     </tr>
-     <tr>
-       <td>SRx4_EDTL_Div2kFlickr2K__SRx4_ImageNet200K</td>
-     </tr>
-     <tr>
        <td>SRx2_EDTB_Div2kFlickr2K__SRx2_ImageNet50K</td>
      </tr>
      <tr>
@@ -114,7 +96,7 @@ We have made the testing code and well-trained models for SR, denoising and dera
        <td>SRx2_EDTB_Div2kFlickr2K__SRx2_ImageNetFull</td>
      </tr>
      <tr>
-       <td rowspan="18">Pre-train</td>
+       <td rowspan="12">Pre-train</td>
        <td>SRx2x3x4_EDTB_ImageNet200K</td>
      </tr>
      <tr>
@@ -124,19 +106,7 @@ We have made the testing code and well-trained models for SR, denoising and dera
        <td>SRx2_EDTT_ImageNet200K</td>
      </tr>
      <tr>
-       <td>SRx3_EDTT_ImageNet200K</td>
-     </tr>
-     <tr>
-       <td>SRx4_EDTT_ImageNet200K</td>
-     </tr>
-     <tr>
        <td>SRx2_EDTS_ImageNet200K</td>
-     </tr>
-     <tr>
-       <td>SRx3_EDTS_ImageNet200K</td>
-     </tr>
-     <tr>
-       <td>SRx4_EDTS_ImageNet200K</td>
      </tr>
      <tr>
        <td>SRx2_EDTB_ImageNet200K</td>
@@ -149,12 +119,6 @@ We have made the testing code and well-trained models for SR, denoising and dera
      </tr>
      <tr>
        <td>SRx2_EDTL_ImageNet200K</td>
-     </tr>
-     <tr>
-       <td>SRx3_EDTL_ImageNet200K</td>
-     </tr>
-     <tr>
-       <td>SRx3_EDTL_ImageNet200K</td>
      </tr>
      <tr>
        <td>SRx2_EDTB_ImageNet50K</td>
