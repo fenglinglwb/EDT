@@ -21,7 +21,28 @@ We have made the testing code and well-trained models for SR, denoising and dera
     pip install -r requirements.txt
     ```
 
-3. Download pretrained models from [One Drive](). Models are named by task\_model\_data\[\_\_pretrain\_task\_pretrain\_data\] where the optional denotation indicates the pre-training setting. 
+3. Download pretrained models from [One Drive](). Models are named by
+   ```shell
+   task\_model\_data\[\_\_pretrain\_task\_pretrain\_data\]
+   ```
+   where the optional part (in square brackets \[\]) indicates the pre-training setting. 
+   - Task
+      - Super-Resolution (SR) includes x2, x3, x4 scales.
+      - Denoising (DN) includes Gaussian noise levels 15, 25 and 50, i.e., g15, g25, g50.
+      - Deraining (DR) includees light and heavy streaks, i.e., ls and hs.
+   - Type
+      - Fine-tune: models are fine-tuned on target datasets with pre-training on ImageNet.
+      - Pre-train: models are trained on ImageNet.
+      - Scratch: models are trained on target datasets.
+   - Model
+      - EDT: T, S, B, L represent the tiny, small, base and large models.
+      - EDTSF: SF means the denoising model without downsampling and upsampling in the encoder and decoder.
+   - Datasets
+      - Pre-train: ImageNet.
+      - SR: Div2K, Flickr2K.
+      - Denoising: Div2K, Flickr2K, BSD500 and WED, short for D4.
+      - Deraining: RAIN100L, RAIN100H.
+
    <table>
    <thead>
      <tr>
