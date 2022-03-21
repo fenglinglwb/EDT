@@ -54,7 +54,7 @@ We have made the testing code and well-trained models of SR, denoising and derai
    <tbody>
      <tr>
        <td rowspan="53">SR</td>
-       <td rowspan="22">Fine-tune<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></td>
+       <td rowspan="22">Fine-tune</td>
        <td>SRx2_EDTT_Div2kFlickr2K__SRx2x3x4_ImageNet200K</td>
      </tr>
      <tr>
