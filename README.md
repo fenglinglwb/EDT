@@ -55,7 +55,7 @@ We have made the testing code and well-trained models for SR, denoising and dera
    </thead>
    <tbody>
      <tr>
-       <td rowspan="37">SR</td>
+       <td rowspan="33">SR</td>
        <td rowspan="13">Fine-tune</td>
        <td>SRx2_EDTB_Div2kFlickr2K__SRx2x3x4_ImageNet200K</td>
      </tr>
@@ -133,7 +133,7 @@ We have made the testing code and well-trained models for SR, denoising and dera
        <td>SRx2_EDTB_ImageNetFull</td>
      </tr>
      <tr>
-       <td rowspan="12">Scratch</td>
+       <td rowspan="8">Scratch</td>
        <td>SRx2_EDTT_Div2kFlickr2K</td>
      </tr>
      <tr>
@@ -146,12 +146,6 @@ We have made the testing code and well-trained models for SR, denoising and dera
        <td>SRx2_EDTS_Div2kFlickr2K</td>
      </tr>
      <tr>
-       <td>SRx3_EDTS_Div2kFlickr2K</td>
-     </tr>
-     <tr>
-       <td>SRx4_EDTS_Div2kFlickr2K</td>
-     </tr>
-     <tr>
        <td>SRx2_EDTB_Div2kFlickr2K</td>
      </tr>
      <tr>
@@ -162,12 +156,6 @@ We have made the testing code and well-trained models for SR, denoising and dera
      </tr>
      <tr>
        <td>SRx2_EDTL_Div2kFlickr2K</td>
-     </tr>
-     <tr>
-       <td>SRx3_EDTL_Div2kFlickr2K</td>
-     </tr>
-     <tr>
-       <td>SRx4_EDTL_Div2kFlickr2K</td>
      </tr>
      <tr>
        <td rowspan="16">Denoise</td>
