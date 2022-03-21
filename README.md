@@ -1,9 +1,9 @@
 ## On Efficient Transformer-Based Image Pre-training for Low-Level Vision 
-Wenbo Li, Xin Lu, Shengju Qian, Jiangbo Lu, Xiangyu Zhang, Jiaya Jia
 ---
+Wenbo Li, Xin Lu, Shengju Qian, Jiangbo Lu, Xiangyu Zhang, Jiaya Jia
 [\[Paper\]](https://arxiv.org/abs/2112.10175)
 
-We have made the testing code and well-trained models of SR, denoising and deraining available now. The training code will be released soon.
+We have made the testing code and well-trained models for SR, denoising and deraining available now. The training code will be released soon.
 
 
 ---
@@ -36,12 +36,13 @@ We have made the testing code and well-trained models of SR, denoising and derai
       - Scratch: models are trained on target datasets.
    - Model
       - EDT: T, S, B, L represent the tiny, small, base and large models.
-      - EDTSF: SF means the denoising model without downsampling and upsampling in the encoder and decoder.
+      - EDTSF: SF means the denoising or deraining model without downsampling and upsampling in the encoder and decoder.
    - Datasets
       - Pre-train: ImageNet.
       - SR: Div2K, Flickr2K.
       - Denoising: Div2K, Flickr2K, BSD500 and WED, short for D4.
       - Deraining: RAIN100L, RAIN100H.
+   - Note. We only provide pre-trained and fine-tuned models for deraining since RAIN100 dataests only contain hundreds of low-resolution images (insufficient to train the model). Especially, pre-trained models obtain better performance than fine-tuned ones. Thus, we report the evaluation results of pre-trained models in the paper. 
    <br />
    <table>
    <thead>
@@ -267,18 +268,24 @@ We have made the testing code and well-trained models of SR, denoising and derai
      <tr>
        <td>DNg50_EDTBSF_D4</td>
      </tr>
-     <tr>
-       <td rowspan="3">Derain</td>
-       <td rowspan="2">Fine-tune</td>
-       <td>DRls_EDTB_RAIN100L__DRlshs_ImageNet200K</td>
-     </tr>
-     <tr>
-       <td>DRhs_EDTB_RAIN100L__DRlshs_ImageNet200K</td>
-     </tr>
-     <tr>
-       <td>Pre-train</td>
-       <td>DRlshs_EDTB_ImageNet200K</td>
-     </tr>
+	<tr>
+      <td rowspan="5">Derain</td>
+      <td rowspan="2">Fine-tune</td>
+      <td>DRls_EDTB_RAIN100L__DRlshs_ImageNet200K</td>
+    </tr>
+    <tr>
+      <td>DRhs_EDTB_RAIN100L__DRlshs_ImageNet200K</td>
+    </tr>
+    <tr>
+      <td rowspan="3">Pre-train</td>
+      <td>DRlshs_EDTB_ImageNet200K</td>
+    </tr>
+    <tr>
+      <td>DRls_EDTB_ImageNet200K</td>
+    </tr>
+    <tr>
+      <td>DRhs_EDTB_ImageNet200K</td>
+    </tr>
    </tbody>
    </table> 
 
