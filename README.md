@@ -22,34 +22,34 @@ We have made the testing code and well-trained models for SR, denoising and dera
     ```
 
 3. Download pretrained models from [One Drive](). Models are named by task\_model\_data\[\_\_pretrain\_task\_pretrain\_data\] where the optional denotation indicates the pre-training setting. 
-<table>
-<thead>
-  <tr>
-    <th>Task</th>
-    <th>Model</th>
-    <th>Pre-train</th>
-    <th>Description</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td rowspan="3">SR</td>
-    <td>SRx2_EDTB_Div2kFlickr2K__SRx2x3x4_ImageNet200K</td>
-    <td>Yes</td>
-    <td>ha</td>
-  </tr>
-  <tr>
-    <td>SRx3_EDTB_Div2kFlickr2K__SRx2x3x4_ImageNet200K</td>
-    <td>Yes</td>
-    <td>ha</td>
-  </tr>
-  <tr>
-    <td>SRx4_EDTB_Div2kFlickr2K__SRx2x3x4_ImageNet200K</td>
-    <td>Yees</td>
-    <td>ha</td>
-  </tr>
-</tbody>
-</table>
+   <table>
+   <thead>
+     <tr>
+       <th>Task</th>
+       <th>Model</th>
+       <th>Pre-train</th>
+       <th>Description</th>
+     </tr>
+   </thead>
+   <tbody>
+     <tr>
+       <td rowspan="3">SR</td>
+       <td>SRx2_EDTB_Div2kFlickr2K__SRx2x3x4_ImageNet200K</td>
+       <td>Yes</td>
+       <td>ha</td>
+     </tr>
+     <tr>
+       <td>SRx3_EDTB_Div2kFlickr2K__SRx2x3x4_ImageNet200K</td>
+       <td>Yes</td>
+       <td>ha</td>
+     </tr>
+     <tr>
+       <td>SRx4_EDTB_Div2kFlickr2K__SRx2x3x4_ImageNet200K</td>
+       <td>Yes</td>
+       <td>ha</td>
+     </tr>
+   </tbody>
+   </table>
 
 4. Quick test
     ```shell
