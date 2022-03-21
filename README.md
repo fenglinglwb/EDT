@@ -26,7 +26,7 @@ We have made the testing code and well-trained models for SR, denoising and dera
    ```shell
    task_model_data[__pretrain-task_pretrain-data]
    ```
-   where the optional part (in square brackets \[\]) indicates the pre-training setting. 
+   where the optional part (in square brackets \[\]) shows the pre-training setting. 
    - Task
       - Super-Resolution (SR) includes x2, x3, x4 scales.
       - Denoising (DN) includes Gaussian noise levels 15, 25 and 50, i.e., g15, g25, g50.
@@ -43,7 +43,7 @@ We have made the testing code and well-trained models for SR, denoising and dera
       - SR: Div2K, Flickr2K.
       - Denoising: Div2K, Flickr2K, BSD500 and WED, short for D4.
       - Deraining: RAIN100L, RAIN100H.
-   - Note. We only provide pre-trained and fine-tuned models for deraining since RAIN100 dataests only contain hundreds of low-resolution images (insufficient to train transformers). Especially, we notice that the pre-trained model 'DRlshs\_EDTB\_ImageNet200K' obtains the best performance. Thus, we report its evaluation results in the paper. 
+   - Note. We only provide pre-trained and fine-tuned models for deraining since RAIN100 dataests only contain hundreds of low-resolution images (insufficient to train transformers).
    <br />
    <table>
    <thead>
