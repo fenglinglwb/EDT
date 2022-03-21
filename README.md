@@ -24,7 +24,7 @@ We have made the testing code and well-trained models for SR, denoising and dera
 
 3. Download pretrained models from [One Drive](). Models are named by
    ```shell
-   task_model_data[__pretrain_task_pretrain_data]
+   task_model_data[__pretrain-task_pretrain-data]
    ```
    where the optional part (in square brackets \[\]) indicates the pre-training setting. 
    - Task
