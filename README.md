@@ -1,9 +1,9 @@
 ## On Efficient Transformer-Based Image Pre-training for Low-Level Vision 
 Wenbo Li, Xin Lu, Shengju Qian, Jiangbo Lu, Xiangyu Zhang, Jiaya Jia
 ---
-\[Paper\](https://arxiv.org/abs/2112.10175)
+[\[Paper\]](https://arxiv.org/abs/2112.10175)
 
-We have made the testing code and well-trained models for SR, denoising and deraining available now. The training code will be released soon.
+We have made the testing code and well-trained models of SR, denoising and deraining available now. The training code will be released soon.
 
 
 ---
@@ -23,7 +23,7 @@ We have made the testing code and well-trained models for SR, denoising and dera
 
 3. Download pretrained models from [One Drive](). Models are named by
    ```shell
-   task\_model\_data\[\_\_pretrain\_task\_pretrain\_data\]
+   task_model_data[__pretrain_task_pretrain_data]
    ```
    where the optional part (in square brackets \[\]) indicates the pre-training setting. 
    - Task
@@ -42,7 +42,7 @@ We have made the testing code and well-trained models for SR, denoising and dera
       - SR: Div2K, Flickr2K.
       - Denoising: Div2K, Flickr2K, BSD500 and WED, short for D4.
       - Deraining: RAIN100L, RAIN100H.
-
+   <br />
    <table>
    <thead>
      <tr>
