@@ -55,17 +55,8 @@ We have made the testing code and well-trained models for SR, denoising and dera
    </thead>
    <tbody>
      <tr>
-       <td rowspan="53">SR</td>
-       <td rowspan="22">Fine-tune</td>
-       <td>SRx2_EDTT_Div2kFlickr2K__SRx2x3x4_ImageNet200K</td>
-     </tr>
-     <tr>
-       <td>SRx3_EDTT_Div2kFlickr2K__SRx2x3x4_ImageNet200K</td>
-     </tr>
-     <tr>
-       <td>SRx4_EDTT_Div2kFlickr2K__SRx2x3x4_ImageNet200K</td>
-     </tr>
-     <tr>
+       <td rowspan="49">SR</td>
+       <td rowspan="19">Fine-tune</td>
        <td>SRx2_EDTB_Div2kFlickr2K__SRx2x3x4_ImageNet200K</td>
      </tr>
      <tr>
@@ -123,10 +114,7 @@ We have made the testing code and well-trained models for SR, denoising and dera
        <td>SRx2_EDTB_Div2kFlickr2K__SRx2_ImageNetFull</td>
      </tr>
      <tr>
-       <td rowspan="19">Pre-train</td>
-       <td>SRx2x3x4_EDTT_ImageNet200K</td>
-     </tr>
-     <tr>
+       <td rowspan="18">Pre-train</td>
        <td>SRx2x3x4_EDTB_ImageNet200K</td>
      </tr>
      <tr>
