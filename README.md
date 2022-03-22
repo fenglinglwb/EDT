@@ -265,14 +265,9 @@ We have made the testing code and well-trained models for SR, denoising and dera
 
         The pre-training may contain multiple tasks. If you want to test multi-task models, please only build one branch and load corresponding weights during model building phase. We have provided an example for testing x2 SR based on model 'SRx2x3x4_EDTB_ImageNet200K' in the comment of 'test_sample.py'.
 
----
-### Acknowledgement
-
-    We refer to \[Simple-SR\](https://github.com/dvlab-research/Simple-SR) and \[SwinIR\](https://github.com/JingyunLiang/SwinIR) for some details.
 
 ---
 ### Citation
-    
     @article{li2021efficient,
       title={On Efficient Transformer and Image Pre-training for Low-level Vision},
       author={Li, Wenbo and Lu, Xin and Lu, Jiangbo and Zhang, Xiangyu and Jia, Jiaya},
@@ -280,3 +275,5 @@ We have made the testing code and well-trained models for SR, denoising and dera
       year={2021}
     }
 
+### Acknowledgement
+We refer to \[Simple-SR\](https://github.com/dvlab-research/Simple-SR) and \[SwinIR\](https://github.com/JingyunLiang/SwinIR) for some details.
