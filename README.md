@@ -232,3 +232,8 @@ We have made the testing code and well-trained models for SR, denoising and dera
 
 
 4. Quick test
+    For SR and deraining, read low-quality data from a specified folder as
+    ```shell
+    python test_sample.py --config config_path --model model_path --input input_folder [--output output_folder --gt gt_folder]
+    ```
+    where '--output' and '--gt' are optional. If assigned, the predictions will be stored and PSNR/SSIM results will be reported.
