@@ -10,11 +10,11 @@ We have made the testing code and well-trained models for SR, denoising and dera
 ---
 ### Usage
 
-1. Clone the repository
+1. Clone the repository.
     ```shell
     git clone https://github.com/fenglinglwb/EDT.git 
     ```
-2. Install the dependencies
+2. Install the dependencies.
     - Python >= 3.7
     - PyTorch >= 1.4
     - Other packages
@@ -231,7 +231,7 @@ We have made the testing code and well-trained models for SR, denoising and dera
    </table> 
 
 
-4. Quick test
+4. Quick test.
     
     The model and config files are in one-to-one correpondence with the same name. Please refer to the nameing rule in the model zoo above.
 
