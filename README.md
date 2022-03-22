@@ -236,6 +236,7 @@ We have made the testing code and well-trained models for SR, denoising and dera
     Put downloaded models into folder 'pretrained'. The model and config files are one-to-one with the same name. Please refer to the model list above.
 
     - SR and deraining.
+
     Read low-quality data directly from a specified folder as
     ```shell
     python test_sample.py --config config_path --model model_path --input input_folder [--output output_folder --gt gt_folder]
@@ -248,6 +249,7 @@ We have made the testing code and well-trained models for SR, denoising and dera
     ```
 
     - Denoising.
+
     The low-quality data are obtained by adding noise to the gt as
     ```shell
     python test_sample.py --config config_path --model model_path --gt gt_folder --noise_level XX [--output output_folder --sf]
@@ -261,4 +263,5 @@ We have made the testing code and well-trained models for SR, denoising and dera
 
     - Note.
 
+    The pre-training may contain multiple tasks. If you want to test multi-task models, please only build one branch and load corresponding weights during model building phase. We have provided an example for testing x2 SR based on model 'SRx2x3x4_EDTB_ImageNet200K' in the comment of 'test_sample.py'.
 
