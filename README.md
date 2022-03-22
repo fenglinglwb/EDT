@@ -22,11 +22,11 @@ We have made the testing code and well-trained models for SR, denoising and dera
     pip install -r requirements.txt
     ```
 
-3. Download pretrained models from [One Drive]() and put them into folder 'pretrained'. Models are named by
+3. Download pretrained models from [One Drive](https://mycuhk-my.sharepoint.com/:f:/g/personal/1155137927_link_cuhk_edu_hk/Eikt_wPDrIFCpVpiU0zYNu0BwOhQIHgNWuH1FYZbxZhq_w?e=bVEVeW) and put them into folder 'pretrained'. Models are named by
    ```shell
    task_model_data[__pretrain-task_pretrain-data]
    ```
-   where the optional part (in square brackets \[\]) shows the pre-training setting. 
+   where the optional part (in square brackets \[\]) denotes the pre-training setting. 
    - Task
       - Super-Resolution (SR) includes x2, x3, x4 scales.
       - Denoising (DN) includes Gaussian noise levels 15, 25 and 50, i.e., g15, g25, g50.
@@ -233,7 +233,7 @@ We have made the testing code and well-trained models for SR, denoising and dera
 
 4. Quick test
     
-    The model and config files are one-to-one with the same name. Please refer to the model list above.
+    The model and config files are in one-to-one correpondence with the same name. Please refer to the nameing rule in the model zoo above.
 
     - SR and deraining.
 
