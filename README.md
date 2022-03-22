@@ -1,4 +1,4 @@
-## On Efficient Transformer-Based Image Pre-training for Low-Level Vision 
+# On Efficient Transformer-Based Image Pre-training for Low-Level Vision 
 
 #### Wenbo Li\*, Xin Lu\*, Shengju Qian, Jiangbo Lu, Xiangyu Zhang, Jiaya Jia
 ---
@@ -8,7 +8,7 @@ We have made the testing code and well-trained models for SR, denoising and dera
 
 
 ---
-### Usage
+## Usage
 
 1. Clone the repository.
     ```shell
@@ -267,7 +267,7 @@ We have made the testing code and well-trained models for SR, denoising and dera
 
 
 ---
-### Citation
+## Citation
     @article{li2021efficient,
       title={On Efficient Transformer and Image Pre-training for Low-level Vision},
       author={Li, Wenbo and Lu, Xin and Lu, Jiangbo and Zhang, Xiangyu and Jia, Jiaya},
@@ -275,5 +275,5 @@ We have made the testing code and well-trained models for SR, denoising and dera
       year={2021}
     }
 
-### Acknowledgement
-We refer to \[Simple-SR\](https://github.com/dvlab-research/Simple-SR) and \[SwinIR\](https://github.com/JingyunLiang/SwinIR) for some details.
+## Acknowledgement
+We refer to [Simple-SR](https://github.com/dvlab-research/Simple-SR) and [SwinIR](https://github.com/JingyunLiang/SwinIR) for some details.
