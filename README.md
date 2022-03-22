@@ -1,11 +1,13 @@
 # On Efficient Transformer-Based Image Pre-training for Low-Level Vision 
 
 #### Wenbo Li\*, Xin Lu\*, Shengju Qian, Jiangbo Lu, Xiangyu Zhang, Jiaya Jia
----
+
 [\[Paper\]](https://arxiv.org/abs/2112.10175)
+---
+
+## News
 
 We have made the testing code and well-trained models for SR, denoising and deraining available now. The training code will be released soon.
-
 
 ---
 ## Usage
@@ -265,8 +267,6 @@ We have made the testing code and well-trained models for SR, denoising and dera
 
         The pre-training may contain multiple tasks. If you want to test multi-task models, please only build one branch and load corresponding weights during model building phase. We have provided an example for testing x2 SR based on model 'SRx2x3x4_EDTB_ImageNet200K' in the comment of 'test_sample.py'.
 
-
----
 ## Citation
     @article{li2021efficient,
       title={On Efficient Transformer and Image Pre-training for Low-level Vision},
