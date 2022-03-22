@@ -22,7 +22,7 @@ We have made the testing code and well-trained models for SR, denoising and dera
     pip install -r requirements.txt
     ```
 
-3. Download pretrained models from [One Drive](). Models are named by
+3. Download pretrained models from [One Drive]() and put them into folder 'pretrained'. Models are named by
    ```shell
    task_model_data[__pretrain-task_pretrain-data]
    ```
@@ -233,7 +233,7 @@ We have made the testing code and well-trained models for SR, denoising and dera
 
 4. Quick test
     
-    Put downloaded models into folder 'pretrained'. The model and config files are one-to-one with the same name. Please refer to the model list above.
+    The model and config files are one-to-one with the same name. Please refer to the model list above.
 
     - SR and deraining.
 
