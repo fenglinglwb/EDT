@@ -2,7 +2,7 @@
 
 #### Wenbo Li\*, Xin Lu\*, Shengju Qian, Jiangbo Lu, Xiangyu Zhang, Jiaya Jia
 
-[\[Paper\]](https://arxiv.org/abs/2112.10175)
+#### [\[Paper\]](https://arxiv.org/abs/2112.10175)
 ---
 
 ## News
