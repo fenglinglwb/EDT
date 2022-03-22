@@ -232,15 +232,33 @@ We have made the testing code and well-trained models for SR, denoising and dera
 
 
 4. Quick test
+    
+    Put downloaded models into folder 'pretrained'. The model and config files are one-to-one with the same name. Please refer to the model list above.
 
-    For SR and deraining, read low-quality data directly from a specified folder as
+    - SR and deraining.
+    Read low-quality data directly from a specified folder as
     ```shell
     python test_sample.py --config config_path --model model_path --input input_folder [--output output_folder --gt gt_folder]
     ```
     where '--output' and '--gt' are optional. If assigned, the predictions will be stored and PSNR/SSIM results will be reported.
 
-    For denoising, the low-quality data are obtained by adding noise to the gt as
+    For example,
+    ```shell
+    python test_sample.py --config configs/SRx2_EDTT_Div2kFlickr2K.py --model pretrained/SRx2_EDTT_Div2kFlickr2K.pth --input test_sets/SR/Set5/LR/x2 --gt test_sets/SR/Set5/HR/x2 
+    ```
+
+    - Denoising.
+    The low-quality data are obtained by adding noise to the gt as
     ```shell
     python test_sample.py --config config_path --model model_path --gt gt_folder --noise_level XX [--output output_folder --sf]
     ```
     where 'sf' indicates whether there is upsampling and downsampling. If not assigned, EDT model will be built.
+
+    For example,
+    ```shell
+    python test_sample.py --config configs/DNg15_EDTB_D4.py --model pretrained/DNg15_EDTB_D4.pth --gt test_sets/Denoise/McMaster --noise_level 15 
+    ```
+
+    - Note.
+
+
