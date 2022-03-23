@@ -235,7 +235,7 @@ We have made the testing code and well-trained models for SR, denoising and dera
 
 4. Quick test.
     
-    The model and config files are in one-to-one correpondence with the same name. Please refer to the nameing rule in the model zoo above.
+    The model and config files are in one-to-one correpondence with the same name. Please refer to the naming rule in the model zoo above.
 
     - SR and deraining.
 
