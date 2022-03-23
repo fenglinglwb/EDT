@@ -252,7 +252,7 @@ We have made the testing code and well-trained models for SR, denoising and dera
 
     - Denoising.
 
-        The low-quality data are obtained by adding noise to the gt as
+        The low-quality data is obtained by adding noise to the gt as
         ```shell
         python test_sample.py --config config_path --model model_path --gt gt_folder --noise_level XX [--output output_folder --sf]
         ```
