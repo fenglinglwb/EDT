@@ -256,7 +256,7 @@ We have made the testing code and well-trained models for SR, denoising and dera
         ```shell
         python test_sample.py --config config_path --model model_path --gt gt_folder --noise_level XX [--output output_folder --sf]
         ```
-        where 'sf' indicates whether there is upsampling and downsampling. If not assigned, EDT model will be built.
+        where '--sf' indicates whether there is upsampling and downsampling. If not assigned, EDT model will be built.
 
         For example,
         ```shell
