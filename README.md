@@ -107,7 +107,7 @@ We have made the testing code and well-trained models for SR, denoising and dera
         <td>SRx2_EDTB_Div2kFlickr2K__SRx2_ImageNetFull</td>
       </tr>
       <tr>
-        <td rowspan="12">Pre-train</td>
+        <td rowspan="13">Pre-train</td>
         <td>SRx2x3x4_EDTT_ImageNet200K</td>
       </tr>
       <tr>
