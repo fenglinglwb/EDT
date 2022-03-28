@@ -57,8 +57,17 @@ We have made the testing code and well-trained models for SR, denoising and dera
     </thead>
     <tbody>
       <tr>
-        <td rowspan="33">SR</td>
-        <td rowspan="13">Fine-tune</td>
+        <td rowspan="37">SR</td>
+        <td rowspan="16">Fine-tune</td>
+        <td>SRx2_EDTT_Div2kFlickr2K__SRx2x3x4_ImageNet200K</td>
+      </tr>
+      <tr>
+        <td>SRx3_EDTT_Div2kFlickr2K__SRx2x3x4_ImageNet200K</td>
+      </tr>
+      <tr>
+        <td>SRx4_EDTT_Div2kFlickr2K__SRx2x3x4_ImageNet200K</td>
+      </tr>
+      <tr>
         <td>SRx2_EDTB_Div2kFlickr2K__SRx2x3x4_ImageNet200K</td>
       </tr>
       <tr>
@@ -99,6 +108,9 @@ We have made the testing code and well-trained models for SR, denoising and dera
       </tr>
       <tr>
         <td rowspan="12">Pre-train</td>
+        <td>SRx2x3x4_EDTT_ImageNet200K</td>
+      </tr>
+      <tr>
         <td>SRx2x3x4_EDTB_ImageNet200K</td>
       </tr>
       <tr>
@@ -212,12 +224,18 @@ We have made the testing code and well-trained models for SR, denoising and dera
         <td>DNg50_EDTBSF_D4</td>
       </tr>
      <tr>
-       <td rowspan="5">Derain</td>
-       <td rowspan="2">Fine-tune</td>
+       <td rowspan="7">Derain</td>
+       <td rowspan="4">Fine-tune</td>
        <td>DRls_EDTB_RAIN100L__DRlshs_ImageNet200K</td>
      </tr>
      <tr>
        <td>DRhs_EDTB_RAIN100H__DRlshs_ImageNet200K</td>
+     </tr>
+     <tr>
+       <td>DRls_EDTB_RAIN100L__DRls_ImageNet200K</td>
+     </tr>
+     <tr>
+       <td>DRhs_EDTB_RAIN100H__DRhs_ImageNet200K</td>
      </tr>
      <tr>
        <td rowspan="3">Pre-train</td>
