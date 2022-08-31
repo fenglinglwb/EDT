@@ -131,7 +131,7 @@ if __name__ == '__main__':
 
         # for batch=1
         for idx, lq_path in enumerate(ipath_l):
-            img_name = f.split('/')[-1]
+            img_name = lq_path.split('/')[-1]
             lq_img = cv2.imread(lq_path, cv2.IMREAD_COLOR).astype(np.float32)
             if args.noise_level:
                 noise = np.random.normal(loc=0.0, scale=args.noise_level, size=lq_img.shape)
