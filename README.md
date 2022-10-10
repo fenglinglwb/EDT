@@ -288,7 +288,7 @@ We have made the testing code and well-trained models for SR, denoising and dera
 ## Citation
     @article{li2021efficient,
       title={On Efficient Transformer and Image Pre-training for Low-level Vision},
-      author={Li, Wenbo and Lu, Xin and Lu, Jiangbo and Zhang, Xiangyu and Jia, Jiaya},
+      author={Li, Wenbo and Lu, Xin and Qian, Shengju and Lu, Jiangbo and Zhang, Xiangyu and Jia, Jiaya},
       journal={arXiv preprint arXiv:2112.10175},
       year={2021}
     }
